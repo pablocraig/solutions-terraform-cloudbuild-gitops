@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "reygar-tfstate"
+    bucket = "terra-256711-tfstate"
     prefix = "env/dev"
   }
 }
