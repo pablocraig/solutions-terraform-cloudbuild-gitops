@@ -39,7 +39,7 @@ steps:
           cd ${dir}   
           env=${dir%*/}
           env=${env#*/}
-          echo ""
+          echo " "
           echo "*************** TERRAFORM INIT ******************"
           echo "******* At environment: ${env} ********"
           echo "*************************************************"
