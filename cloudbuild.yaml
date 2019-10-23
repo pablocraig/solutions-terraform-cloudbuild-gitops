@@ -35,7 +35,7 @@ steps:
         terraform init
       else
         for dir in environments/*/
-        do 
+        do gi
           cd ${dir}   
           env=${dir%*/}
           env=${env#*/}
